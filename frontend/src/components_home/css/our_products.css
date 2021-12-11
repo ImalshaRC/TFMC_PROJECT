@@ -1,0 +1,103 @@
+.our_products_container {
+    width: 85%;
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+ .section-title {
+    text-align: center;
+    font-size: clamp(3rem, calc(5vw + 1rem), 3.5rem);
+    line-height: 1;
+    color: #17353d;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-weight: 700;
+  }
+
+  p.product__description{
+    color:white;
+    font-size: clamp(1rem, calc(5vw + 1rem), 1.1rem);
+
+  }
+
+  .product {
+    background: radial-gradient(var(--clr-inner, limegreen), var(--clr-outer, purple));
+    padding: 3em;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  h3.product__title {
+    font-size: clamp(2rem, calc(5vw + 1rem), 4rem);
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .product__image {
+    margin: -5em 0 0 0;
+  }
+  
+  @media (min-width: 45em) {
+    .product {
+      text-align: left;
+      margin-bottom: 9em;
+    }
+    .product__title {
+      margin: 0;
+      font-size: 60px;
+    }
+    .product__image {
+      float: right;
+      width: 55%;
+      shape-margin: 1em;
+      margin: 0 -5em 0 0;
+    }
+   
+    .product.tea-left .product__image {
+      float: left;
+      margin: 0 0 0 -5em;
+      shape-margin: 2em;
+    }
+  }
+
+  .tea-birth {
+    --clr-inner: #0cd147;
+    --clr-outer: #1f700e;
+    --clr-accent: #a1173c;
+  }
+  
+  .tea-health {
+    --clr-inner: #f3a50a;
+    --clr-outer: #9c6b08;
+    --clr-accent: #2f4858;
+  }
+  
+  .tea-herbal {
+    --clr-inner: #575757;
+    --clr-outer: #1b1b1b;
+    --clr-accent: #008951;
+  }
+  
+  .tea-herbal p{
+    color:rgb(209, 204, 204);
+  }
+  
+  .tea-herbal .product__image{
+    max-height: 300px;
+    max-width: 300px;
+  }
+  
+  .tea-birth .product__image{
+    max-height: 300px;
+    max-width: 300px;
+  }
+  
+  .tea-health .product__image{
+    max-height: 300px;
+    max-width: 300px;
+  }
+  

@@ -1,0 +1,183 @@
+.bottom_footer {
+    width: 100%;
+    line-height: 5vh;
+    min-height: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: #111; */
+    vertical-align: middle;
+  }
+  
+  .bottom_footer span {
+    display: table-cell;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* __________________Coppied______________________ */
+  
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings',sans-serif;
+  }
+  .bodyfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+    background: #ffffff;
+  }
+  
+  .footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    color: white;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  
+  @supports (background-blend-mode: multiply) {
+    .footer{
+      background: url(../images/banner1.jpg), radial-gradient(rgb(133, 130, 130), #111);
+      background-blend-mode: multiply;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  
+  .footer .footcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .footer .footcontainer .sec{
+    margin-right: 30px;
+  }
+  
+  .footer .footcontainer .sec.aboutus{
+    width: 40%;
+  }
+  
+  .footer .footcontainer  h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .footer .footcontainer h2:before{
+    content:'';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width:50px;
+    height: 2px;
+    background: #FFD700;
+  }
+  
+  .footer p{
+    color: white;
+  } 
+  
+  .sci{
+    margin-top:20px;
+    display: flex; 
+  }
+  
+  .sci li{
+    list-style: none;
+  }
+  
+  .sci li a{
+    display :inline-block;
+    width:40px;
+    height:40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .sci li a:hover{
+    background: #f00;
+  }
+  
+  .sci li a .fa{
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .quickLinks{
+    position: relative;
+    width: 25%;
+  }
+  
+  .quickLinks ul li{
+    list-style: none;
+    display: flex;
+  }
+  
+  .quickLinks ul li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display:inline-block;
+  }
+  
+  .quickLinks ul li a:hover{
+    color:#FFD700;
+    transition: 200ms;
+  
+  }
+  
+  .contact{
+    width:calc(35% -60px);
+    margin-right: 0 !important;
+  }
+  
+  .contact .info{
+    position: relative;
+  
+  }
+  
+  .contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+  
+  }
+  
+  .contact .info li span:nth-child(1){
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .contact .info li span{
+    color: white;
+  }
+  
+  .contact .info li  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact .info li  a:hover{
+    color:#FFD700;
+    transition: 200ms;
+  }

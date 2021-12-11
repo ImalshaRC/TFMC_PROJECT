@@ -1,0 +1,38 @@
+.contactusform {
+    margin: auto;
+    width: 70%;
+    padding: 10px;   
+}
+
+body{
+    background-color: rgb(217, 221, 218);
+}
+
+.section-title {
+    text-align: center;
+    font-size: clamp(2.0rem, calc(5vw + 1rem), 3rem);
+    line-height: 1;
+    color: #17353d;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+.card{
+    width: 25%;
+    margin:auto
+}
+
+.cardset{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+h5{
+    text-align: center;
+    color: #17353d;
+}
+
+h6{
+    text-align: center;
+    color: #17353d;
+}
